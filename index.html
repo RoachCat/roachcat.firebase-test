@@ -6,36 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Test Firebase</title>
+    <title>Firebase test</title>
 </head>
 
 <body>
     <div class="form">
         <label class="form__label" for="product">
-            Product
+            Marca:
             <input class="form__input" type="text" id="product" placeholder="Product">
         </label>
         <label class="form__label" for="type">
-            Type
+            Tip:
             <input class="form__input" type="text" id="type" placeholder="Type">
         </label>
         <label class="form__label" for="model">
-            Model
+            Modelo:
             <input class="form__input" type="number" min="0" id="model" placeholder="Model">
         </label>
         <label class="form__label" for="price">
-            Price
+            Precio:
             <input class="form__input" type="number" min="0" id="price" placeholder="Price">
         </label>
     </div>
-    <button id="send-button" class="send-button">Send</button>
+    <button id="send-button" class="send-button">Crear registro</button>
 
-    <button id="get-elements" class="get-elements">Get Data</button>
+    <button id="get-elements" class="get-elements">Mostrar productos</button>
+    <button id="hide-elements" class="hide-elements">Ocultar productos</button>
     <div id="elements" class="elements">
     </div>
-
-
-
+    <div class="spinner" id="spinner"></div>
 
     <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
