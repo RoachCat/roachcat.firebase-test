@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+}
+
+.form__label{
+    margin: 5px 0px;
+}
+
+.send-button{
+    margin-top: 15px;
+}
+
+.get-elements{
+    margin-top: 10px;
+}

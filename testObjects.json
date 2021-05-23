@@ -1,0 +1,40 @@
+{
+    "people": [
+        {
+            "name": "Sebastián",
+            "sex": "Man",
+            "age": 25,
+            "occupation": "Developer"
+        },
+        {
+            "name": "Edison",
+            "sex": "Man",
+            "age": 24,
+            "occupation": "Comunicator"
+        },
+        {
+            "name": "Sebastián",
+            "sex": "Man",
+            "age": 25,
+            "occupation": "Developer"
+        },
+        {
+            "name": "Angélica",
+            "sex": "Woman",
+            "age": 23,
+            "occupation": "Developer"
+        },
+        {
+            "name": "Carolina",
+            "sex": "Woman",
+            "age": 20,
+            "occupation": "Student"
+        },
+        {
+            "name": "Daniel",
+            "sex": "Man",
+            "age": 22,
+            "occupation": "Music Producer"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test Firebase</title>
+</head>
+
+<body>
+    <div class="form">
+        <label class="form__label" for="product">
+            Product
+            <input class="form__input" type="text" id="product" placeholder="Product">
+        </label>
+        <label class="form__label" for="type">
+            Type
+            <input class="form__input" type="text" id="type" placeholder="Type">
+        </label>
+        <label class="form__label" for="model">
+            Model
+            <input class="form__input" type="number" min="0" id="model" placeholder="Model">
+        </label>
+        <label class="form__label" for="price">
+            Price
+            <input class="form__input" type="number" min="0" id="price" placeholder="Price">
+        </label>
+    </div>
+    <button id="send-button" class="send-button">Send</button>
+
+    <button id="get-elements" class="get-elements">Get Data</button>
+    <div id="elements" class="elements">
+    </div>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="firebase.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
